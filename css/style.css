@@ -25,6 +25,15 @@ h3 {
   padding-bottom: 10px;
 }
 
+a {
+  color: #545454;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #545454;
+}
+
 .small {
   font-size: 12px;
 }
