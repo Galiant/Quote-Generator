@@ -1,0 +1,53 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-image: cover;
+  color: #545454;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.navbar {
+  border-style: none;
+  background-color: #ffffff;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0;
+}
+
+#quoteBox {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 20%;
+  margin-top: 140px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.social {
+  width: 42px;
+  height: 42px;
+  margin: 25px 10px 50px 0px;
+}
+
+#newQuote {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-top: 25px;
+}

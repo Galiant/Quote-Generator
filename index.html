@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="follow,index">
+  <meta name="robots" content="all">
+  <meta name="abstract" content="Quote Generator">
+  <meta name="distribution" content="Global">
+  <meta name="description" content="Random Quote Generator">
+  <meta name="keywords" content="quote generator, random, quote, generator, machine, quote machine, random quote, freecodecamp,">
+  <meta name="author" content="Antonijo Galic">
+  <link rel="icon" href="images/favicon.png">
+
+  <title>Quote Generator</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar  -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container text-center">
+      <h3 class="pull-left">Quote Generator <span class="small">by Antonijo Galic</span></h3>
+    </div>
+  </nav>
+
+  <!-- Quote Box-->
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2">
+      <div id="quoteBox" class="center-block ">These are some random quotes I discovered through the Quotes On Design API.</div>
+    </div>
+  </div>
+
+  <!-- Share on twitter and facebook -->
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2">
+      <div class="pull-left">
+        <a href="#"><img src="images/twitter.png" class="social twitter"></a>
+        <a href="#"><img src="images/facebook.png" class="social facebook"></a>
+      </div>
+      <!-- Generate new quote-->
+      <div class="pull-right">
+        <button id="newQuote" type="button" class="btn" onclick="getQuote">New Quote</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="js/ie-emulation-modes-warning.js"></script>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- jQuery UI -->
+  <script src="js/jquery-ui.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
